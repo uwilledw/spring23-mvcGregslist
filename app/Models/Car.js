@@ -16,7 +16,7 @@ export class Car {
   get CarCard() {
     return `
     <div class="col-6 col-md-4">
-      <div class="card elevation-2 text-light fw-bold text-shadow" style="background-image: url(${this.img})">
+      <div class="card elevation-2 fw-bold text-shadow" style="background-imag: url(${this.img})">
         <img
           src="${this.img}"
           alt="${this.make}-${this.model}">
